@@ -1,0 +1,42 @@
+body{
+    background-color:aliceblue;
+    padding:0;
+    margin:0;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: Arial, sans-serif;
+}
+.heading{
+    color:#6b00b3;   
+    font-weight: bolder;
+    font-size: 1.3em;
+
+}
+nav{
+    display:flex;
+    background-color:white;
+    padding: 15px 30px;
+    align-items: center;
+    /* justify-content: space-between; */
+    box-shadow:0px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+.links{
+    display: flex;
+    gap:20px ;
+    list-style:none;
+    margin-left: 280px;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+    font-weight:15px;
+}
+.login button{
+    background-color:#6b00b3;
+    color: white;
+    /* font-weight: bold; */
+    border: none;
+    padding:10px 15px;
+    border-radius:10px;
+    margin:10px;
+}
